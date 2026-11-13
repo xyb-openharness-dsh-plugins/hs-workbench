@@ -27,7 +27,7 @@
 - 模型：会话模型为 GLM-Flash 免费档（用户要求 glm-3.5-flash；本会话实际运行模型由客户端指定，未自行切换）。
 
 ## 六、未验证与异常
-1. **git push 未完成**：github.com:443 连接超时（clone/push 双失败；gh api 正常）。本地 commit 59b6ad1、f42f847。**后果：issue #78 已声明认领，远端仓尚空**——网络恢复后第一时间 `git push -u origin main`。
+1. ~~git push 未完成~~ → **07:54 网络恢复，`git push -u origin main` 成功（3 个 commit 已上远端）**；MORNING-REVIEW 本身随后补推。
 2. hs 文档九件为骨架版：证据台账、重名率实测、场景全量在 M1。
 3. hs 试验线：仅做了 1 次真实计数（ClinicalTrials.gov cond=290，2026-11-14），四通道全量抓取在 M4；chictr 通道未查。
 4. 小暖宝 0.2.2：本夜零代码改动 → 不升版不重装；V3 真机走查沿袭上夜「待人工」结论，未冒充通过。

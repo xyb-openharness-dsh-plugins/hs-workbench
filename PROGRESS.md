@@ -10,5 +10,5 @@
 - 文档九件骨架版：SPEC / DEV-REQUIREMENTS(§五默认值) / DIFF-MATRIX / PATIENT-FLOW / SCENARIOS / USER-RESEARCH / INTERACTION-DESIGN / CLINICAL-DATA / DEV-PLAN
 - 基线：npm run check exit 0（27 项 ✓；SKIP：schema 未建为 M3 属性）
 下一步：M1 三路并行（医学约束 10 主题 / 用户研究证据分层 / 家族结构对比实测重名率 ≤70%）→ G1
-阻塞：git push 网络超时（github.com:443；gh api 正常）——本地 commit 先行，网络恢复后补推
+阻塞：无（07:54 push 已成功，59b6ad1/f42f847/23e66bc 均上远端）
 闸口结论：G1 未达（M0 完成待 M1）
