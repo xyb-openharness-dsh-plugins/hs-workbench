@@ -1,0 +1,6 @@
+- insert:
+    - id: hs-main
+      name: "@xyb-community/hs-workbench"
+      # 接线前置：宿主把业务资料根目录指向 dshHomePath('hs')
+      config:
+        root: !!js dshHomePath('hs')
